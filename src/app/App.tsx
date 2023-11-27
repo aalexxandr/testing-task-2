@@ -1,5 +1,11 @@
+import { Router } from './providers/Router';
+
 function App() {
-	return <div>123123</div>;
+	return (
+		<>
+			<Router />
+		</>
+	);
 }
 
 export default App;
